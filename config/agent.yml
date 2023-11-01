@@ -2,19 +2,19 @@ version: 3.0
 
 constants:
   baseUrl:
-    $env: BASE_URL
+    $env: process.env.BASE_URL
   port:
-    $env: PORT
+    $env: process.env.PORT
   apiKey:
-    $env: API_KEY
+    $env: process.env.API_KEY
   secretKey:
-    $env: SECRET_KEY
+    $env: process.env.SECRET_KEY
   agentPath:
-    $env: AGENT_PATH
+    $env: process.env.AGENT_PATH
   messagingEndpoint:
-    $env: MESSAGING_PATH
+    $env: process.env.MESSAGING_PATH
   databaseUrl:
-    $env: DATABASE_URL
+    $env: process.env.DATABASE_URL
   methods:
     - keyManagerGetKeyManagementSystems
     - keyManagerCreate
