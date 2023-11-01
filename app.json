@@ -1,6 +1,6 @@
 {
     "name": "VBS - Veramo Agent",
-    "description": "Minimal deployment of @veramo/cli agent server to Heroku",
+    "description": "Minimal deployment of @veramo/cli agent server to Render",
     "repository": "",
     "keywords": [
       "node",
@@ -8,11 +8,10 @@
       "identity",
       "verifiable-credentials"
     ],
-    "addons": ["heroku-postgresql:mini"],
     "env": {
       "BASE_URL": {
         "description": "The url for which your DID will be based on",
-        "value": "https://APP_NAME.herokuapp.com"
+        "value": "https://vbs-veramo-agent.onrender.com"
       },
       "API_KEY": {
         "description": "A secret key for verifying requests",
